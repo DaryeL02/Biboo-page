@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="icon" href="./images/biboo.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>Biboo</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main">
+            <div class="inner">
+                <div class="row_A">
+                    <div class="A1_image_container">
+                        <img src="./images/biboo icon.jpg" alt="" class="img">
+                    </div>
+                </div>
+                <div class="row_B"> 
+                    <div class="B1_image_container">
+                        <img src="./images/biboo B.jpg" alt="" class="img">
+                    </div>
+                    <div class="B2_text_container">
+                        <h1 class="title">Koseki Bijou</h1>
+                        <p class="text">Koseki Bijou (古石ビジュ-) es una YouTuber virtual de habla inglesa asociada a hololive. 
+                            Debutó en 2023 como parte de hololive -Advent-, la tercera generación de miembros de hololive 
+                            English, junto a Shiori Novella, Nerissa Ravencroft, Fuwawa Abyssgard y Mococo Abyssgard.</p>
+    
+                    </div>
+                </div>
+                <div class="row_C">
+                    <p><a href="https://x.com/kosekibijou" target="_blank">Twitter</a></p>
+                    <img src="./images/star.svg" alt="star">
+                    <p><a href="https://www.youtube.com/@KosekiBijou" target="_blank">Youtube</a></p>
+                    <img src="./images/star.svg" alt="star">
+                    <p><a href="https://hololive.hololivepro.com/en/" target="_blank">Hololive</a></p>
+                </div>
+                <div class="row_D">
+                    <div class="B2_text_container">
+                        <h1 class="title">Canciones</h1>
+                        <div class="button_container">
+                            <a href="https://www.youtube.com/watch?v=VaVIJw6Lcc0" id="button_link" target="_blank">
+                                <button class="button" id="myButton">Kyoufuu All Back</button>
+                            </a>
+                        </div>
+                        
+                    </div>
+                    <div class="B1_image_container">
+                        <!-- Slider main container -->
+                        <!-- Slider main container -->
+                        <div class="swiper">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><a href="https://www.youtube.com/watch?v=VaVIJw6Lcc0" target="_blank" id="link_1">
+                                <img src="https://i.ytimg.com/vi/VaVIJw6Lcc0/maxresdefault.jpg" alt="Kyoufuu All Back"  class="img" id="1"></a></div>
+                            <div class="swiper-slide"><a href="https://www.youtube.com/watch?v=NfhJK602XdE" target="_blank" id="link_2">
+                                <img src="https://i.ytimg.com/vi/NfhJK602XdE/maxresdefault.jpg" alt="Love it?" class="img" id="2"></a></div>
+                            <div class="swiper-slide"><a href="https://www.youtube.com/watch?v=1ulTgWcWWRU" target="_blank" id="link_3">
+                                <img src="https://i.ytimg.com/vi/1ulTgWcWWRU/maxresdefault.jpg" alt="Prism no Mahou" class="img" id="3"></a></div>
+                            ...
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                        
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev" onclick="previousSong()"></div>
+                            <div class="swiper-button-next" onclick="nextSong()"></div>
+
+                        </div>
+                            
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="./scripts.js"></script>
+    
+</body>
+</html>

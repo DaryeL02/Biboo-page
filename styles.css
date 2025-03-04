@@ -1,0 +1,140 @@
+html, body{
+    height: 100%;
+    margin: 0;
+}
+.wrapper{
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background-image: url('./images/BG.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    height: 90%;
+    width: 80%;
+    border-color: black;
+    border-radius: 60px;
+    border-style: solid;
+    border-width: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    box-shadow: black 0px 0px 20px;
+}
+.inner{
+    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.A1_image_container{
+    height: 6rem;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+.star {
+    height: 1px;
+    width: 1px;
+    
+}
+.img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+    
+}
+.row_B, .row_D{
+    height: 16rem;
+    
+    display: flex;
+}
+.B1_image_container{
+    height: 100%;
+    width: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.B2_text_container{
+    height: 100%;
+    width: 50%;
+}
+h1{
+    text-align: center;
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    margin: 0 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.row_C{
+    height: 3rem;
+    
+    display: flex;
+    justify-content: center;
+}
+.row_C p{
+    /* background-color: white; */
+    margin: auto 1rem ;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  
+}
+a{
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.row_B, .row_C, .row_D{
+    margin: 1rem 0;
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #e48fff;
+    border: none;
+    border-radius: 15px;
+    
+  }
+  
+.button:hover {background-color: #B36CCE}
+  
+.button:active {
+    background-color: #B36CCE;
+    
+    transform: translateY(4px);
+}
+.button_container{
+    display: flex;
+    justify-content: center;
+}
+.swiper-slide {
+    text-align: center;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
