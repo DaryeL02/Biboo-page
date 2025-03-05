@@ -185,4 +185,7 @@ a{
     .row_A, .row_B, .row_C, .row_D{
         width: 100%;
     }
+    .B1_image_container{
+        margin-top: 2rem;
+    }
 }
